@@ -38,8 +38,8 @@
 }
 
 .content{
-    height: 90%;
-    height: 90%;
+    /* height: 90%;
+    height: 90%; */
     display: flex;
     flex-direction: column;
     border-radius: 2rem;
@@ -56,8 +56,16 @@
     margin-top: 2rem;
 }
 
+.error{
+    text-align: center;
+    margin: 1rem 1rem;
+ 
+    border-radius: 2rem;
+    background: var(--azulBebe);
+}
+
 #container .flex  .content .seletores{
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     text-align: center;
     gap: 2rem;
 }
@@ -86,7 +94,6 @@
  .window {
     text-align: center;
     margin: 1rem 1rem 2rem 1rem;
-    padding: 1rem 4%;
     border-radius: 2rem;
     background: var(--azulBebe);
 }
