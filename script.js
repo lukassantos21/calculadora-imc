@@ -59,7 +59,7 @@ btn.addEventListener("click", (event) => {
             classificacao = 'Obesidade grau III';
         }
 
-        const visorPadding = visor.style.padding = "1rem 4%s";
+        const visorPadding = visor.style.padding = "1rem 4%";
         const window = visor.textContent;
         visor.textContent = `Olá ${valueName}, o resultado do seu imc é: ${resultado}, Classificação: ${classificacao}`;
 
